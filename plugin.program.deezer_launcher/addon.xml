@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.deezer_launcher"
        name="Deezer Web Launcher"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="Jelle Emmen">
   
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
 
-    <extension point="xbmc.addon.repository">
-            <info>https://github.com/Jelle1137/DeezerWebLauncher</info>
-            <checksum>https://raw.githubusercontent.com/Jelle1137/DeezerWebLauncher/main/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/Jelle1137/DeezerWebLauncher/archive/refs/tags/v1.0.0.zip</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Launch Deezer in a browser from Kodi</summary>
-            <description>This add-on allows you to launch Deezer in a browser directly from Kodi.</description>
-            <platform>all</platform>
-        </extension>
-    </addon>
-</addons>
+    <extension point="xbmc.python.script" library="resources/lib/default.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Launch Deezer Web (Firefox) from Kodi</summary>
+        <description lang="en_GB">This add-on allows you to launch Deezer Web in fullscreen mode directly from Kodi.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
