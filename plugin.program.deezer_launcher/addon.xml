@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.steamlink_launcher"
+       name="Deezer Web Launcher"
+       version="1.0.0"
+       provider-name="Jelle Emmen">
+  
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+
+    <extension point="xbmc.python.script" library="resources/lib/default.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Launch Deezer Web (Firefox) from Kodi</summary>
+        <description lang="en_GB">This add-on allows you to launch Deezer Web in fullscreen mode directly from Kodi.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
