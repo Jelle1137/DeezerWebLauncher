@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.deezer_launcher"
        name="Deezer Web Launcher"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="Jelle Emmen">
   
     <requires>
